@@ -1,0 +1,14 @@
+
+body {
+
+}
+.keyborad-container {
+    display: flex;
+}
+.keyborad-row {
+    display: flex;
+    flex: 1;
+}
+.no-row {
+    flex: 1;
+}
