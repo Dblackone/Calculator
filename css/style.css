@@ -6,9 +6,12 @@ body {
     display: flex;
 }
 .keyborad-row {
-    display: flex;
     flex: 1;
 }
+.keyborad-row-2 {
+    flex: 2;
+}
+
 .no-row {
     flex: 1;
 }
