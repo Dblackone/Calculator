@@ -4,6 +4,7 @@ body {
 }
 .keyborad-container {
     display: flex;
+    border: ;
 }
 .keyborad-row {
     flex: 1;
@@ -14,4 +15,33 @@ body {
 
 .no-row {
     flex: 1;
+}
+.center {
+    text-align: center;
+}
+.grey-bottons {
+    border-radius: 50%;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 8px 8px;
+    cursor: pointer;
+}
+.zero-bottons {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 2px px;
+    cursor: pointer;
+    border-radius: 25% 25% 25% 25%;
 }
