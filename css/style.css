@@ -5,170 +5,60 @@
     margin: 0;
     padding: 0;
     border-radius: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
 }
 body {
     background-color: #4E3D97;
 }
-header {
-    margin-top: 16px;
-}
-.header-text {
-    font-family: 'Baloo Chettan 2', cursive;
-    color: #F5EFFF;
-}
-/*.calculator {
-    display: flex;
-    width: 70vw;
-    margin: 16px auto;
-    justify-content: center;
-    background-color: #E5D9F2;
-    padding: 1px;
-} */
-.calculator-container {
-    background-color: #e5d9f2;
+.calculator {
     width: 80vw;
-    margin: 16px auto;
+    margin: 32px auto;
     background-color: #E5D9F2;
-    padding: 2px;
-    border-radius: 4px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: center;
 }
-.display-screen {
-    display: block;
-    margin-top: 8px;
+.main {
+    width: 75vw !important;
+    margin: 8px auto !important;
+}
+.result {
+    height: 60px;
+    width: 180px;
+    background-color: #ecd7f3;
+    border-radius: 4px;
 }
 #display {
-    border: 1px solid #624CAB;
-    border-radius: 4px;
-    width: 300px;
-    height: 100px;
-    margin-top: 8px;
-    background-color: #ecd7f3;
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: right;
+    padding: 0 16px;
 }
-.keyborad-container {
-    display: flex;
-    
-}
-.keyborad-row {
-    flex: 1;
-}
-.keyborad-row-2 {
-    flex: 2;
-}
-
-.no-row {
-    flex: 1;
-}
-.center {
-    text-align: center;
-}
-button {
+.buttons {
     font-family: 'Baloo Chettan 2', cursive;
 }
-.btn {
-    background-color: #8D86C9;
-    color: #F5EFFF;
-    border: 1px solid #624cab ;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 1px 1px;
-    cursor: pointer;
-    border-radius: 0;
-}
-.num-btn {
-    background-color: #8D86C9;
-    color: #F5EFFF;
-    border: 1px solid #624cab ;
-    padding: 20px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.btn{
+    width: 60px;
+    height: 60px;
     font-size: 24px;
-    margin: 1px 1px;
+    margin: 4px;
+    color: #E5D9F2;
+    background-color: #4E3D97;
+    border-radius: 0;
     cursor: pointer;
 }
-.percent-btn {
-    background-color: #8D86C9;
-    color: #F5EFFF;
-    border: 1px solid #624cab ;
-    padding: 20px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 1px 1px;
-    cursor: pointer;
-}
-.ac-btn {
-    background-color: #8D86C9;
-    color: #F5EFFF;
-    border: 1px solid #624cab ;
-    padding: 15px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 32px;
-    margin: 1px 1px;
-    cursor: pointer;
-}
-.zero-btn {
-    background-color: #8D86C9;
-    color: #F5EFFF;
-    border: 1px solid #624cab ;
-    padding: 20px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 1px 1px;
-    cursor: pointer;
-}
+
 @media (min-width: 728px) {
-    .calculator {
-        width: 45vw;
-        margin: auto;
-    }
-    .calculator-container {
-        background-color: #e5d9f2;
-        width: 50vw;
-        margin: 32px auto;
-        background-color: #E5D9F2;
-        padding: 2px;
-        border-radius: 4px;
-    }
-    header {
-        margin-top: 32px;
-    }
+   
 }
 @media (max-width: 376px) {
-    .calculator {
-        width: 70vw !important;
-        padding: 4px 8px;
-        margin: 8px auto;
-    }
-    .calculator-container {
-        background-color: #e5d9f2;
-        width: 80vw;
-        justify-content: center;
-        background-color: #E5D9F2;
-        padding: 2px;
-        border-radius: 4px;
-    }
-    .display-screen {
-        display: block;
-        margin-top: 8px;
-    }
-    .keyborad-container {
-        display: flex;
-    }
-    #display {
-        border: 1px solid #624CAB;
-        border-radius: 4px;
-        width: 70vw;
-        height: 100px;
-        margin-top: 8px;
-        background-color: #ecd7f3;
-    }
+    
 }
