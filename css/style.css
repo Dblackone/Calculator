@@ -1,10 +1,50 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
 body {
-    background-color: ;
+    background-color: #4E3D97;
+}
+header {
+    margin-top: 16px;
+}
+.header-text {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #F5EFFF;
+}
+.calculator {
+    display: flex;
+    margin: 1px 4px;
+    justify-content: center;
+    background-color: #E5D9F2;
+    padding: 1px;
+}
+.calculator-container {
+    background-color: #e5d9f2;
+    margin: 32px 48px;
+    justify-content: center;
+    background-color: #E5D9F2;
+    padding: 2px;
+}
+.display-screen {
+    display: block;
+    margin-top: 8px;
+}
+#display {
+    border: 1px solid #624CAB;
+    border-radius: 4px;
+    width: 300px;
+    height: 100px;
+    margin-top: 8px;
+    background-color: #ecd7f3;
 }
 .keyborad-container {
     display: flex;
-    border: ;
+    
 }
 .keyborad-row {
     flex: 1;
@@ -19,31 +59,69 @@ body {
 .center {
     text-align: center;
 }
-.grey-bottons {
-    border-radius: 50%;
-    background-color: gray;
-    border: none;
-    color: white;
+button {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.btn {
+    background-color: #8D86C9;
+    color: #F5EFFF;
+    border: 1px solid #624cab ;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 8px;
-    margin: 8px 8px;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 0;
+}
+.num-btn {
+    background-color: #8D86C9;
+    color: #F5EFFF;
+    border: 1px solid #624cab ;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 1px 1px;
     cursor: pointer;
 }
-.zero-bottons {
-    background-color: gray;
-    border: none;
-    color: white;
-    padding: 20px;
+.percent-btn {
+    background-color: #8D86C9;
+    color: #F5EFFF;
+    border: 1px solid #624cab ;
+    padding: 20px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 8px;
-    margin: 2px px;
+    font-size: 20px;
+    margin: 1px 1px;
     cursor: pointer;
-    border-radius: 25% 25% 25% 25%;
+}
+.ac-btn {
+    background-color: #8D86C9;
+    color: #F5EFFF;
+    border: 1px solid #624cab ;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+.zero-btn {
+    background-color: #8D86C9;
+    color: #F5EFFF;
+    border: 1px solid #624cab ;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
 }
 @media (min-width: 728px) {
     .calculator {
