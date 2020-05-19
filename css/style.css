@@ -29,6 +29,7 @@ header {
     justify-content: center;
     background-color: #E5D9F2;
     padding: 2px;
+    border-radius: 4px;
 }
 .display-screen {
     display: block;
