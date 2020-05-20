@@ -89,7 +89,6 @@ input[type="button"] {
     .result {
         height: 60px;
         width: 70vw;
-        background-color: #ecd7f3;
         margin: 16px auto;
     }
     #display {
@@ -124,7 +123,6 @@ input[type="button"] {
     .result {
         height: 60px;
         width: 70vw;
-        background-color: #E2FDFF;
         margin: 16px auto;
     }
     #display {
@@ -152,13 +150,11 @@ input[type="button"] {
     .container {
         margin: 4px auto;
         width: 75vw;
-        background-color: #ecd7f3;
         padding: 16px 0;
     }
     .result {
         height: 60px;
         width: 70vw;
-        background-color: #ecd7f3;
         margin: 16px auto;
     }
     #display {
@@ -187,13 +183,11 @@ input[type="button"] {
     .container {
         margin: 16px auto;
         width: 40vw;
-        background-color: #ecd7f3;
         padding: 16px 0;
     }
     .result {
         height: 60px;
         width: 35vw;
-        background-color: #ecd7f3;
         margin: 16px auto;
     }
     #display {
