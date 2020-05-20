@@ -11,17 +11,11 @@ body {
     width: 100%;
     background-image: linear-gradient(120deg, #5465FF, #BFD7FF);
 }
-.calculator {
-    width: ;
-}
 .header-text {
     text-align: center;
     font-size: 32px;
     color: #F4F3EE;
     padding-top: 32px;
-}
-.main {
-    
 }
 .container {
     margin: 4px auto;
@@ -34,7 +28,7 @@ body {
 .result {
     height: 60px;
     width: 75vw;
-    background-color: #ecd7f3;
+    background-color: #BFD7FF;
     margin: 16px auto;
 
 }
